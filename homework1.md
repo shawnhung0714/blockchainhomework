@@ -11,6 +11,14 @@ In the future, people would no longer need to take so many boiler-plate processe
 
 ## Differences Between Database and distributed ledger
 
-Similar to central authority, typical databases only have one or few machines to maintain transaction records. Therefore, the risk to be attack and become dysfunction is higher than distributed system. 
+Similar to country governments, typical databases are built on one or few machines to maintain data records. Thus, the risk to be attacked and become dysfunction would be a serious issue when dealing sensitive data, such as credit card details. To neutral this issue, distributed ledger technology introduces peer-to-peer scheme to eliminate the possibility that lets hackers to exploit.
 
-On the other hand, despite high moral and functional risks of DB systems, it is much easier to build high performance computing system through integrating DB system.  
+On the other hand, even though it is much more secure to use distributed system design to upgrade defensive power, how to synchronise every participants and maintain data correctness would still be a challenge of this system. In fact, computer scientists and mathematicians refer this problem as 'Byzantine fault tolerance'(BFT). Furthermore, In 1999, Miguel Castro and Barbara Liskov introduced the "Practical Byzantine Fault Tolerance" (PBFT) algorithm to provide a high-performance solution to this problem that processes massive requests with low latency(PS1). Today, proof-of-work, one of most famous PBFT implementation, has been wildly integrated in many Blockchain technology, such as Bitcoin, Ethereum, Dash, etc. due to its easy implementation, ability to scale up, and high security.
+
+Unfortunately, despite the invention of PBFT solutions, it is still difficult to provide enough high transaction speed, up to several hundreds transaction per second(TPS, as fast as database's, at least 10'000 TPS. Moreover, authorities concerned require financial services to be under control of financial regulation, like MLR or KYC. No doubt, typical database system achieve this requirement without many obstacles, but it still needs much more effort to accomplish this policy. Naturally, many country still do not make cryptocurrency as a legal currency, especially China who has banned every dormitory exchanges.
+
+## Blockchain is immutable
+## Trust Blockchain
+## Smart contract
+## External links
+PS1: Wikipedia, 'Byzantine fault tolerance'[https://en.wikipedia.org/wiki/Byzantine_fault_tolerance]
