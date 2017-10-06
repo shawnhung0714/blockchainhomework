@@ -17,8 +17,16 @@ On the other hand, even though it is much more secure to use distributed system 
 
 Unfortunately, despite the invention of PBFT solutions, which make zero-knowledge proof to be possible, it is still difficult to provide enough high transaction speed, up to several hundreds transaction per second(TPS, as fast as database's, at least 10'000 TPS. Moreover, authorities concerned require financial services to be under control of financial regulation, like MLR or KYC. No doubt, typical database system achieve this requirement without many obstacles, but it still needs much more effort for distributed ledgers to accomplish this policy. Naturally, many country still do not recognise cryptocurrency legal, especially China who has strictly banned every dormitory exchange.
 
-## Blockchain is immutable
+## Why Blockchain is immutable
+Once a block has been created and confirmed validate, each full node on this Blockchain networking
+ would have a identical record. Generally, there usually are thousands of node running on one Blockchain networking, so it requires extremely huge computing power to modify Blockchain history.
+
 ## Trust Blockchain
+Due to the immutability of Blockchain, sensitive data like online purchase record can be put on this system and archived forever without Tampering. Therefore, it accomplishes the most secure storage among all other databases, providing customers and financial facilities a good platform to trade.
+
 ## Smart contract
+In order to providing more advanced financial services, such as future trading, insurance, and bank loans, it is necessarily to provide a protocol for each trading parties to conform. 'Smart contract' is the technology supported natively by some DLT, like Ethereum, that runs a small snippet, though its functions are limited, to ensure trading would be fulfilled under mutual agreement. 
+
+
 ## External links
 PS1: Wikipedia, 'Byzantine fault tolerance'[https://en.wikipedia.org/wiki/Byzantine_fault_tolerance]
