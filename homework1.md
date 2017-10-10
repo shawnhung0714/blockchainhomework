@@ -2,9 +2,9 @@
 
 ## Q1:What is a trust machine?
 
-In order to reduce massive authentication in large institutions, such as governments, banks, or other financial firms, a new technology, distributed ledger technology(DLT), have been developed to reduce the huge cost of these processes while keeping their business still trustworthy. This new technology can create automatic trusting, so it is also called 'Trust Machine', trying to replace 'Trust Companies.'
+In order to reduce massive authentication in large institutions, such as governments, banks, or other financial firms, a new technology, distributed ledger technology(DLT), have been developed to reduce the huge cost of the authentication while keeping their business still trustworthy. This new technology creates automatic trusting, so it is also called 'Trust Machine', trying to replace 'Trust Companies.'
 
-In the future, people would no longer need to take so many boiler-plate processes to make financial business to be trustworthy by Trust Machines rather than some institutions, releasing labours from mundane tasks and promoting transaction records accuracy.
+In the future, people would no longer need to take so many mundane tasks by introduction of Trust Machines rather than some institutions.
 
 ## Q2:How distributed ledger is different from DB(Data Base)?
 
