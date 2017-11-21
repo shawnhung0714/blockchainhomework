@@ -60,6 +60,7 @@ Finally, modify invocations of method below
 in WalletManager class to assign 0x40 to parameter forkID, so that new BIP-0143 "Witness Program" transaction signatures will be created for BCH nodes.
 
 As a result, this modified app become an fully functional BCH wallet, except some server-dependent function like, Push Notification and exchange rate calculation. For convienience, we connect our app into testnet and request some money from faucet website. The snapshot list below.
+
 ![snapshot](snapshot.png "snapshot")
 
 ### Source code repo
@@ -73,9 +74,8 @@ As a result, this modified app become an fully functional BCH wallet, except som
 
 ### Staff
 
-洪軒治 Shawn - Programming, Document
-廖彥智 - Programming
-鍾明諺 - Solution discover
-Helen Tian - Document
-
-吳伯威 - consultant
++ 洪軒治 - Programming, Document
++ 廖彥智 - Programming
++ 鍾明諺 - Solution discovery
++ Helen Tian - Document
++ 吳伯威 - consultant
