@@ -1,3 +1,4 @@
+Student Name: 洪軒治 ID:P06922004
 # Homework 1
 
 ## Q1:What is a trust machine?
