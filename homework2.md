@@ -73,14 +73,16 @@ As a result, this modified app become an fully functional BCH wallet, except som
 
 ![snapshot](snapshot.png "snapshot")
 
+confirmation link: [https://www.blocktrail.com/tBCC/tx/8c11b9ba0541d67aca16e8ae5d7f605a0134840cfc87401e3fede44469f8d152](https://www.blocktrail.com/tBCC/tx/8c11b9ba0541d67aca16e8ae5d7f605a0134840cfc87401e3fede44469f8d152)
+
 ### Source code repo
 
 [https://github.com/shawnhung0714/breadwallet-ios](https://github.com/shawnhung0714/breadwallet-ios)
 
 ### Reference
 
-[Bitcoin Cash - Wikipedia](https://en.wikipedia.org/wiki/Bitcoin_Cash)
-[BitcoinCash.org](https://www.bitcoincash.org/#features)
++ [Bitcoin Cash - Wikipedia](https://en.wikipedia.org/wiki/Bitcoin_Cash)
++ [BitcoinCash.org](https://www.bitcoincash.org/#features)
 
 ### Staff
 
@@ -88,4 +90,5 @@ As a result, this modified app become an fully functional BCH wallet, except som
 + 廖彥智 - Programming
 + 鍾明諺 - Solution discovery
 + Helen Tian - Document
-+ 吳伯威 - consultant
++ Ting-Wei Chang
++ 吳伯威
