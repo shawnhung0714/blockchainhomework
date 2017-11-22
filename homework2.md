@@ -40,13 +40,13 @@ On August 1st, some miners and developers initiated what is known as a hard fork
 
 ### App Arch
 
-As shown below, Breadwallet consists of serveral layers to decouple objects and make it more flexibility and robust.
+AAs shown below, Breadwallet consists of several layers to decouple objects and make it more flexible and robust.
 ![arch](arch.png "App Arch")
 
-Like typical iOS Apps, the start point is in AppDelegate. AppDelegate create an ApplicationController immediately after launching. After, ApplicationController initiates serveral services from service layer objects, such as WalletManager, Store, and Setup root view controller.
+Like typical iOS Apps, the start point is AppDelegate. AppDelegate creates an ApplicationController immediately after launching. Next, ApplicationController will initiate the sequential services, such as WalletManager, Store, and Setup root view controller.
 ![launch](launch.png "Launching Process")
 
-Next, Breadwallet-core starts serveral TCP socket connections from "dns seed" nodes. They will become the boot-up peers, and the user will be able to send some bitcoin transaction requests, like the most common P2PKS. After successful connection, breadwallet, as a typical SPV wallet, send getHeaders requests to fetch and sync transactions info from BTC or BCH network. Once getHeaders finished, it uses Store to cache these data and post signal to view controllers(subscribers of Store) to update their UI.
+Then, Breadwallet-core is going to initiate several TCP socket connections from “DNS seed" nodes. They will become the boot-up peers, and the users will be able to send bitcoin transaction requests, like the most common P2PKH. After successful connections, breadwallet, as a typical SPV wallet, will send getHeaders requests to fetch and sync transactions information from BTC or BCH network. Once this step is done, Store will be initiated to cache these data and post signal to view controllers(subscribers of Store) to update their UI.
 ![P2P Networking Booting](p2p.png "P2P Networking Booting")
 
 ### Conclusion
