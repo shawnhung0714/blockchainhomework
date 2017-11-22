@@ -40,7 +40,7 @@ On August 1st, some miners and developers initiated what is known as a hard fork
 
 ### App Arch
 
-AAs shown below, Breadwallet consists of several layers to decouple objects and make it more flexible and robust.
+As shown below, Breadwallet consists of several layers to decouple objects and make it more flexible and robust.
 ![arch](arch.png "App Arch")
 
 Like typical iOS Apps, the start point is AppDelegate. AppDelegate creates an ApplicationController immediately after launching. Next, ApplicationController will initiate the sequential services, such as WalletManager, Store, and Setup root view controller.
