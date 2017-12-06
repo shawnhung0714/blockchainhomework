@@ -14,7 +14,7 @@ Breadwallet is a fully functional and open-source Bitcoin(BTC) wallet, and it is
 + iOS Touch ID support
 + iOS Push Notification and Android GCM support (require server)
 
-For some reasons, the official team decided not to completely support BCH. They only create a small function to swipe out all BCH.
+For some reasons, the official team decided not to completely support BCH. They only created a small function to swipe out all BCH.
 
 ### Bitcoin Cash
 
@@ -69,7 +69,7 @@ Finally, modify invocations of method in WalletManager.swift:
 
 to assign 0x40 to parameter forkID, so that new BIP-0143 "Witness Program" transaction signatures will be created for BCH network.
 
-As a result, this modified app become an fully functional BCH wallet, except some server-dependent function like, Push Notification and exchange rate calculation. For convienience, we connect our app into testnet and request some money from faucet website. The snapshot list below.
+As a result, this modified app becomes an fully functional BCH wallet, except some server-dependent functions like, Push Notification and exchange rate calculation. For convienience, we connect our app into testnet and request some money from faucet website. The snapshot list below.
 
 ![snapshot](snapshot.png "snapshot")
 
@@ -89,6 +89,6 @@ confirmation link: [https://www.blocktrail.com/tBCC/tx/8c11b9ba0541d67aca16e8ae5
 + 洪軒治 - Programming, Document
 + 廖彥智 - Programming
 + 鍾明諺 - Solution discovery
-+ Helen Tian - Document
++ Tian Haiyan - Document
 + Ting-Wei Chang
 + 吳伯威
