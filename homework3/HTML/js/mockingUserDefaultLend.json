@@ -1,0 +1,43 @@
+[{
+        "sno": 0,
+        "accountID": "Hendrix",
+        "amount": "$3,307.49",
+        "date": "1990/02/03"
+    },
+    {
+        "sno": 1,
+        "accountID": "Mcclure",
+        "amount": "$2,672.55",
+        "date": "2004/06/08"
+    },
+    {
+        "sno": 2,
+        "accountID": "Pugh",
+        "amount": "$2,395.53",
+        "date": "1985/01/29"
+    },
+    {
+        "sno": 3,
+        "accountID": "Santiago",
+        "amount": "$3,583.50",
+        "date": "1995/12/08"
+    },
+    {
+        "sno": 4,
+        "accountID": "Burks",
+        "amount": "$3,583.30",
+        "date": "1975/02/17"
+    },
+    {
+        "sno": 5,
+        "accountID": "Newman",
+        "amount": "$2,477.48",
+        "date": "1997/10/28"
+    },
+    {
+        "sno": 6,
+        "accountID": "Carter",
+        "amount": "$2,585.07",
+        "date": "1994/05/07"
+    }
+]
